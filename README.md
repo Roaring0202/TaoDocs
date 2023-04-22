@@ -1,4 +1,4 @@
-# TaoEdu
+# TaoEdu - the .md files are in src
 Welcome to the documentation project, where I try to help people get started with Bittensor. 
 I'm new to pushing repos, but this is what's currently in my documentation.
 I have more than this, but I'm also re-formatting and making sure that the current things look okay. 
