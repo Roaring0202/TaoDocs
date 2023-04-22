@@ -1,0 +1,171 @@
+This is the progress on where I'm at scribing these documents. Some may be omitted, pending further discussion. 
+You can ctrl+f DONE and you will find the ones marked off the list.
+Anything marked with N/A is either a file that simply doesn't require extensive documentation or doesn't contribute to any meaningful information.
+
+At current rates, I can complete this pretty quickly. You could argue that the bigger files take a lot longer, but I've done some of those. 
+Also, this repo won't be current past 6pm.
+I'm going to be working on this more.
+
+Whenever I push a repo, you can read my thoughts on current direction. Feel free to add input.
+I didn't know exactly what the best path was, so I just proceeded and this is what I've come up with.
+
+Going off of percentage of characters, technically, I might be barely 10% of the way through documentation. 
+But I also only figured out this method today, and was curious if you had any thoughts on the direction. 
+Thanks again for the opportunity. 
+    
+    61 bittensor/benchmarks/core_server.py
+     65 bittensor/benchmarks/multitron_server.py
+     67 bittensor/benchmarks/template_miner.py
+    285 bittensor/benchmarks/__init__.py
+    238 bittensor/bittensor/utils/balance.py
+    143 bittensor/bittensor/utils/codes.py
+     15 bittensor/bittensor/utils/formatting.py
+    218 bittensor/bittensor/utils/networking.py
+    874 bittensor/bittensor/utils/registration.py
+    835 bittensor/bittensor/utils/registratrion_old.py
+     84 bittensor/bittensor/utils/stats.py
+     22 bittensor/bittensor/utils/test_utils.py
+   1423 bittensor/bittensor/utils/tokenizer_utils.py
+    144 bittensor/bittensor/utils/weight_utils.py
+    112 bittensor/bittensor/utils/_register_cuda.py
+    243 bittensor/bittensor/utils/__init__.py
+    863 bittensor/bittensor/_axon/axon_impl.py
+    479 bittensor/bittensor/_axon/__init__.py - DONE 
+     91 bittensor/bittensor/_cli/cli_impl.py
+    537 bittensor/bittensor/_cli/commands/delegates.py
+    166 bittensor/bittensor/_cli/commands/inspect.py
+     88 bittensor/bittensor/_cli/commands/list.py
+    123 bittensor/bittensor/_cli/commands/metagraph.py
+    155 bittensor/bittensor/_cli/commands/misc.py
+    344 bittensor/bittensor/_cli/commands/overview.py
+    172 bittensor/bittensor/_cli/commands/register.py
+    151 bittensor/bittensor/_cli/commands/run.py
+    225 bittensor/bittensor/_cli/commands/stake.py
+     95 bittensor/bittensor/_cli/commands/transfer.py
+    229 bittensor/bittensor/_cli/commands/unstake.py
+    166 bittensor/bittensor/_cli/commands/utils.py
+    400 bittensor/bittensor/_cli/commands/wallets.py
+     97 bittensor/bittensor/_cli/commands/weights.py
+     13 bittensor/bittensor/_cli/commands/__init__.py
+    900 bittensor/bittensor/_cli/naka_cli_impl.py
+    169 bittensor/bittensor/_cli/__init__.py
+    124 bittensor/bittensor/_config/config_impl.py
+    154 bittensor/bittensor/_config/__init__.py
+    690 bittensor/bittensor/_dataset/dataset_impl.py
+    144 bittensor/bittensor/_dataset/dataset_mock.py
+     92 bittensor/bittensor/_dataset/thread_queue.py
+    184 bittensor/bittensor/_dataset/__init__.py
+   1046 bittensor/bittensor/_dendrite/dendrite_impl.py
+    722 bittensor/bittensor/_dendrite/dendrite_mock.py
+     66 bittensor/bittensor/_dendrite/manager_server.py
+    164 bittensor/bittensor/_dendrite/__init__.py
+    158 bittensor/bittensor/_endpoint/endpoint_impl.py
+    194 bittensor/bittensor/_endpoint/__init__.py
+     68 bittensor/bittensor/_ipfs/ipfs_impl.py
+      0 bittensor/bittensor/_ipfs/__init__.py
+    557 bittensor/bittensor/_keyfile/keyfile_impl.py
+     43 bittensor/bittensor/_keyfile/__init__.py
+    355 bittensor/bittensor/_logging/__init__.py
+    417 bittensor/bittensor/_metagraph/metagraph_impl.py
+    150 bittensor/bittensor/_metagraph/metagraph_mock.py
+    563 bittensor/bittensor/_metagraph/naka_metagraph_impl.py
+    241 bittensor/bittensor/_metagraph/__init__.py
+     17 bittensor/bittensor/_neuron/audio/__init__.py
+     17 bittensor/bittensor/_neuron/image/__init_.py
+      4 bittensor/bittensor/_neuron/text/core_server/main.py
+    604 bittensor/bittensor/_neuron/text/core_server/nucleus_impl.py
+    678 bittensor/bittensor/_neuron/text/core_server/__init__.py
+     27 bittensor/bittensor/_neuron/text/core_validator/main.py - N/A
+   1574 bittensor/bittensor/_neuron/text/core_validator/__init__.py - DONE 
+    528 bittensor/bittensor/_neuron/text/log_utilities.py
+    270 bittensor/bittensor/_neuron/text/neuron_utilities.py
+     16 bittensor/bittensor/_neuron/text/__init__.py
+     31 bittensor/bittensor/_neuron/__init__.py
+    182 bittensor/bittensor/_prometheus/__init__.py
+   1246 bittensor/bittensor/_proto/bittensor_pb2.py
+    104 bittensor/bittensor/_proto/bittensor_pb2_grpc.py
+      0 bittensor/bittensor/_proto/__init__.py
+    737 bittensor/bittensor/_receptor/receptor_impl.py
+    380 bittensor/bittensor/_receptor/receptor_pool_impl.py
+     97 bittensor/bittensor/_receptor/__init__.py
+    234 bittensor/bittensor/_serializer/serializer_impl.py
+    140 bittensor/bittensor/_serializer/__init__.py
+    660 bittensor/bittensor/_subtensor/chain_data.py
+     74 bittensor/bittensor/_subtensor/errors.py
+    365 bittensor/bittensor/_subtensor/extrinsics/delegation.py
+    122 bittensor/bittensor/_subtensor/extrinsics/prometheus.py
+    275 bittensor/bittensor/_subtensor/extrinsics/registration.py
+    214 bittensor/bittensor/_subtensor/extrinsics/serving.py
+    121 bittensor/bittensor/_subtensor/extrinsics/set_weights.py
+    395 bittensor/bittensor/_subtensor/extrinsics/staking.py
+    156 bittensor/bittensor/_subtensor/extrinsics/transfer.py
+    319 bittensor/bittensor/_subtensor/extrinsics/unstaking.py
+     15 bittensor/bittensor/_subtensor/extrinsics/__init__.py
+   1762 bittensor/bittensor/_subtensor/naka_subtensor_impl.py
+   1072 bittensor/bittensor/_subtensor/subtensor_impl.py
+    437 bittensor/bittensor/_subtensor/subtensor_mock.py
+    252 bittensor/bittensor/_subtensor/__init__.py
+    206 bittensor/bittensor/_synapse/synapse_impl.py
+    199 bittensor/bittensor/_synapse/text_causallmnext_impl.py
+    180 bittensor/bittensor/_synapse/text_causallm_impl.py
+    259 bittensor/bittensor/_synapse/text_lasthiddenstate_impl.py
+    228 bittensor/bittensor/_synapse/text_seq2seq_impl.py
+    227 bittensor/bittensor/_synapse/__init__.py
+    231 bittensor/bittensor/_threadpool/priority_thread_pool_impl.py
+     97 bittensor/bittensor/_threadpool/__init__.py
+     50 bittensor/bittensor/_tokenizer/__init__.py
+    760 bittensor/bittensor/_wallet/naka_wallet_impl.py
+    875 bittensor/bittensor/_wallet/wallet_impl.py
+     58 bittensor/bittensor/_wallet/wallet_mock.py
+    152 bittensor/bittensor/_wallet/__init__.py
+    142 bittensor/bittensor/_wandb/__init__.py
+    215 bittensor/bittensor/__init__.py
+      8 bittensor/examples/bot_template.py
+     27 bittensor/miners/core_server.py
+     26 bittensor/miners/core_validator.py
+     19 bittensor/scripts/validator_info_signature/generate.py
+      8 bittensor/scripts/validator_info_signature/verify.py
+     87 bittensor/setup.py
+    173 bittensor/tests/helpers.py
+     13 bittensor/tests/integration_tests/constant.py
+   2265 bittensor/tests/integration_tests/test_cli.py
+    348 bittensor/tests/integration_tests/test_cli_no_network.py
+     92 bittensor/tests/integration_tests/test_dataset.py
+    450 bittensor/tests/integration_tests/test_dendrite.py
+     24 bittensor/tests/integration_tests/test_ipfs.py
+    159 bittensor/tests/integration_tests/test_keyfile.py
+     71 bittensor/tests/integration_tests/test_metagraph.py
+     35 bittensor/tests/integration_tests/test_priority_thread_pool.py
+     46 bittensor/tests/integration_tests/test_prometheus.py
+    516 bittensor/tests/integration_tests/test_server_compression.py
+    676 bittensor/tests/integration_tests/test_subtensor.py
+    214 bittensor/tests/integration_tests/test_wallet.py
+      0 bittensor/tests/integration_tests/__init__.py
+   1272 bittensor/tests/unit_tests/bittensor_tests/test_axon.py
+    356 bittensor/tests/unit_tests/bittensor_tests/test_balance.py
+    134 bittensor/tests/unit_tests/bittensor_tests/test_config.py
+    177 bittensor/tests/unit_tests/bittensor_tests/test_endpoint.py
+    296 bittensor/tests/unit_tests/bittensor_tests/test_forward_backward.py
+    213 bittensor/tests/unit_tests/bittensor_tests/test_keypair.py
+     53 bittensor/tests/unit_tests/bittensor_tests/test_metagraph.py
+    394 bittensor/tests/unit_tests/bittensor_tests/test_neuron.py
+    851 bittensor/tests/unit_tests/bittensor_tests/test_receptor.py
+    323 bittensor/tests/unit_tests/bittensor_tests/test_receptor_pool.py
+    228 bittensor/tests/unit_tests/bittensor_tests/test_serialization.py
+    185 bittensor/tests/unit_tests/bittensor_tests/test_subtensor.py
+    213 bittensor/tests/unit_tests/bittensor_tests/test_synapse.py
+    231 bittensor/tests/unit_tests/bittensor_tests/test_wallet.py
+     30 bittensor/tests/unit_tests/bittensor_tests/test_wandb.py
+    129 bittensor/tests/unit_tests/bittensor_tests/utils/test_network_utils.py
+    664 bittensor/tests/unit_tests/bittensor_tests/utils/test_tokenizer_utils.py
+    663 bittensor/tests/unit_tests/bittensor_tests/utils/test_utils.py
+     87 bittensor/tests/unit_tests/bittensor_tests/utils/test_weight_utils.py
+      0 bittensor/tests/unit_tests/bittensor_tests/utils/__init__.py
+      0 bittensor/tests/unit_tests/bittensor_tests/__init__.py
+     32 bittensor/tests/unit_tests/config_tests/test_sample_config.py
+      0 bittensor/tests/unit_tests/__init__.py
+      0 bittensor/tests/__init__.py
+
+  45216 total
+
+  
