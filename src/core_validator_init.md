@@ -1,4 +1,4 @@
-# __Core Validator .py Analysis__ 
+# __bittensor/miners/Core Validator.py Analysis__ 
 ### ___It is important to note here that I have no idea about the accuracy of statements of this, and I couldn't explain what the code actually does. In fact, I didn't. If it seems inaccurate to you, then tell me and I can correct it.___ 
 
 

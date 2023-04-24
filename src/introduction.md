@@ -15,8 +15,8 @@ This documentation is divided into several sections to help you get started with
 
 1. **Introduction**: An overview of Bittensor and its key features (this section)
 2. **Installation**: Step-by-step instructions for installing Bittensor
-3. **Usage**: Guides on how to use Bittensor as a client, miner, and validator
-4. **API Reference**: Detailed information on Bittensor's API and its various functions
-5. **FAQs**: Answers to frequently asked questions about Bittensor
+3. **Usage**: Guides on how to use Bittensor as a client, miner, and validator.
+4. **API Reference**: Detailed information on Bittensor's API and its various functions.
+5. **The rest of it**: Answers to the enigma that is this network and how it functions from the perspective of code. 
 
 We hope you find this documentation helpful as you explore and use Bittensor. If you have any questions or need further assistance, please don't hesitate to reach out to the community on [Discord](https://discord.gg/bittensor).

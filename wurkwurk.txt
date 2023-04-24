@@ -14,21 +14,21 @@ But I also only figured out this method today, and was curious if you had any th
 Thanks again for the opportunity. 
     
     61 bittensor/benchmarks/core_server.py
-     65 bittensor/benchmarks/multitron_server.py
-     67 bittensor/benchmarks/template_miner.py
-    285 bittensor/benchmarks/__init__.py
+     65 bittensor/benchmarks/multitron_server.py -
+     67 bittensor/benchmarks/template_miner.py - DONE
+    285 bittensor/benchmarks/__init__.py - DONE
     238 bittensor/bittensor/utils/balance.py
     143 bittensor/bittensor/utils/codes.py
      15 bittensor/bittensor/utils/formatting.py
-    218 bittensor/bittensor/utils/networking.py
-    874 bittensor/bittensor/utils/registration.py
+    218 bittensor/bittensor/utils/networking.py - DONE
+    874 bittensor/bittensor/utils/registration.py - DONE 
     835 bittensor/bittensor/utils/registratrion_old.py
      84 bittensor/bittensor/utils/stats.py
      22 bittensor/bittensor/utils/test_utils.py
    1423 bittensor/bittensor/utils/tokenizer_utils.py
     144 bittensor/bittensor/utils/weight_utils.py
-    112 bittensor/bittensor/utils/_register_cuda.py
-    243 bittensor/bittensor/utils/__init__.py
+    112 bittensor/bittensor/utils/_register_cuda.py - DONE
+    243 bittensor/bittensor/utils/__init__.py - DONE 
     863 bittensor/bittensor/_axon/axon_impl.py
     479 bittensor/bittensor/_axon/__init__.py - DONE 
      91 bittensor/bittensor/_cli/cli_impl.py
@@ -39,19 +39,19 @@ Thanks again for the opportunity.
     155 bittensor/bittensor/_cli/commands/misc.py
     344 bittensor/bittensor/_cli/commands/overview.py
     172 bittensor/bittensor/_cli/commands/register.py
-    151 bittensor/bittensor/_cli/commands/run.py
+    151 bittensor/bittensor/_cli/commands/run.py - DONE !!!!!!!!!!!!!!!!!!!!!!!!! I would consider these to be covered for the most part within client_commands.md
     225 bittensor/bittensor/_cli/commands/stake.py
      95 bittensor/bittensor/_cli/commands/transfer.py
     229 bittensor/bittensor/_cli/commands/unstake.py
     166 bittensor/bittensor/_cli/commands/utils.py
     400 bittensor/bittensor/_cli/commands/wallets.py
      97 bittensor/bittensor/_cli/commands/weights.py
-     13 bittensor/bittensor/_cli/commands/__init__.py
+     13 bittensor/bittensor/_cli/commands/__init__.py 
     900 bittensor/bittensor/_cli/naka_cli_impl.py
     169 bittensor/bittensor/_cli/__init__.py
     124 bittensor/bittensor/_config/config_impl.py
     154 bittensor/bittensor/_config/__init__.py
-    690 bittensor/bittensor/_dataset/dataset_impl.py
+    690 bittensor/bittensor/_dataset/dataset_impl.py - DONE
     144 bittensor/bittensor/_dataset/dataset_mock.py
      92 bittensor/bittensor/_dataset/thread_queue.py
     184 bittensor/bittensor/_dataset/__init__.py
@@ -93,7 +93,7 @@ Thanks again for the opportunity.
     660 bittensor/bittensor/_subtensor/chain_data.py
      74 bittensor/bittensor/_subtensor/errors.py
     365 bittensor/bittensor/_subtensor/extrinsics/delegation.py
-    122 bittensor/bittensor/_subtensor/extrinsics/prometheus.py
+    122 bittensor/bittensor/_subtensor/extrinsics/prometheus.py - DONE
     275 bittensor/bittensor/_subtensor/extrinsics/registration.py
     214 bittensor/bittensor/_subtensor/extrinsics/serving.py
     121 bittensor/bittensor/_subtensor/extrinsics/set_weights.py

@@ -1,5 +1,5 @@
-# Verify Validator
-
+# Verify Validator from 
+**bittensor/bittensor/scripts/validator_info_signature/verify.py**
 This script verifies the validator's signed information provided by the user. The user needs to input the validator information and the validator signature.
 
 ## Process

@@ -1,6 +1,6 @@
-# Code Summary
+# Code Summary of _neuron/text/core_validator/__init__.py
 
-This Python script defines a class called `neuron` that acts as a core component in a distributed machine learning network. It is responsible for managing the network communication, the model training, and the reward distribution among peers.
+This Python script defines a class called `neuron` that acts as a core component in a distributed machine learning network. It is responsible for managing the network communication, the model training, and the reward distribution among peers. 
 
 ## Key Components
 
@@ -58,3 +58,6 @@ The script initializes a `neuron` instance and starts the network communication 
 ### Execution Flow
 
 When the script is run, it initializes a `neuron` instance and enters an infinite loop, periodically calling the `train()` method to train the model and update the weights on the blockchain.
+
+# In Conclusion,
+There's a lot going on here, and I think it's best to investigate yourself, but the goal is to give people the proper tools and knowledge required to build on the network. This knowledge could be quite important depending on what your goals are here. 

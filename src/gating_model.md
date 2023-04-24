@@ -24,7 +24,6 @@ Running a backward pass through the model using mean squared error between norma
 
 
 ```def add_args(cls, parser: argparse.ArgumentParser)```
-    
 
 ### Usage
 

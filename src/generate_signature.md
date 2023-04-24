@@ -1,4 +1,4 @@
-# Validator Information Signing
+# Validator Information Signing from bittensor/bittensor/scripts/validator_info_signature/generate.py
 
 This script gathers information about a validator and creates a signed message for that information. The information includes the mnemonic of the validator's hotkey, a descriptive name, a URL, and a short description.
 

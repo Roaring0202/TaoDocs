@@ -1,4 +1,4 @@
-# Axon Module
+# Axons in-depth from the __init__ file found within bittensor/_axon
 
 The Axon module provides a factory class for the `bittensor.Axon` object, which creates a gRPC server for the Bittensor network, facilitating communication between neurons. The server protocol is defined in `bittensor.proto` and outlines how forward and backward requests are transported and encoded between validators and servers.
 

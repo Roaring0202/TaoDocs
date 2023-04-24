@@ -1,27 +1,33 @@
 # Summary
 
-[Home][def]
+- [Getting Started](./introduction.md)
+  - [Before You Build](./before_you_build.md)
+  - [Linux Basics](./linux_basics.md)
+  - [ReadMe](./readme.md)
 
-- [What is Bittensor?](./introduction.md)
-- [Validator Signature][def2]
-- [ReadMe][def]
-- [Verify Validator][def3]
-- [Gating Model][def4]
-- [Neurons][def5]
-- [Model Testing][def6]
-- [All the commands, but explained!][def7]
-- [Synopsis of Bittensor Code][def8]
-- [Core Validator Explanation][def9]
-- [What's an Epoch?][def10]
+- [Information for Validation](./generate_signature.md)
+  - [Verify Validator](./verify_signature.md)
+  - [Gating Model](./gating_model.md)
+  - [Neurons](./neuron.md)
+  - [Core Validator Explanation](./core_validator_init.md)
 
+- [Mining](./rewards.md)
+  - [All the commands, but explained!](./client_commands.md)
+  - [Synopsis of Bittensor Code](./bittensor_init.md)
+  - [What's an Epoch?](./epochs.md)
+  - [Miner Commands](./miner_commands.md)
+  - [Analysis of a Miner Template](./miner_analysis.md)
+  - [Cuda PoW](./register_cuda.md)
 
-[def]: ./README.MD
-[def2]: ./generate_signature.md
-[def3]: ./verify_signature.md
-[def4]: ./gating_model.md
-[def5]: ./neuron.md
-[def6]: ./rewards.md
-[def7]: ./client_commands.md
-[def8]: ./Bittensor_Init.md
-[def9]: ./core_validator_init.md
-[def10]: ./epochs.md 
+- [Data](./dataset_impl.md)
+  - [Mock DataSet](./dataset_mock.md)
+
+- [Networking](./networking.md)
+
+- [Registration](./registration.md)
+
+- [Axons](./axon_init.md)
+
+- [Dendrites](./dendrite_impl.md)
+
+- [Monitoring](./prometheus_init.md)
