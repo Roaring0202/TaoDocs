@@ -1,4 +1,4 @@
-### ```/bittensor/bittensor/_dataset/MockGenesisTextDataset.py```
+```/bittensor/bittensor/_dataset/MockGenesisTextDataset.py```
 
 ## Class: MockGenesisTextDataset
 

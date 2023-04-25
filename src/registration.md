@@ -1,6 +1,8 @@
-## Synopsis of what's going on with bittensor/bittensor/_neuron/text/core_validator/__init__.py
+## Synopsis of what's going on with 
 
-### __Author's note because this file had probably one of the more complex scripts, with many more characters, I did my best to translate between myself and my AI assistant. Some words are mine, and I make edits, but I don't know what's going on down there. Validators are the core of the network, and if you've reached the ability to comprehend how to run a Validator, congratulations.__  
+```bittensor/bittensor/_neuron/text/core_validator/__init__.py```
+
+__Author's note because this file had probably one of the more complex scripts, with many more characters, I did my best to translate between myself and my AI assistant. Some words are mine, and I make edits, but I don't know what's going on down there. Validators are the core of the network, and if you've reached the ability to comprehend how to run a Validator, congratulations.__  
 
 # Proof of Work Solver
 

@@ -1,4 +1,4 @@
-# IP Address Utility Script - interpratation of bittensor/bittensor/utils/networking.py
+# IP Address Utility Script - ```bittensor/bittensor/utils/networking.py```
 
 This script provides a set of utility functions to help you work with IP addresses, automatically detect your external IP address, set up port forwarding using the Universal Plug and Play (UPnP) protocol, and format WebSocket URLs. It is designed to simplify common networking tasks for users without extensive knowledge in networking.
 

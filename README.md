@@ -1,12 +1,13 @@
 # TaoEdu - the .md files are in src
-Welcome to the documentation project, where I try to help people get started with Bittensor. 
-I'm new to pushing repos, but this is what's currently in my documentation.
-I have more than this, but I'm also re-formatting and making sure that the current things look okay. 
 
-Everything should be more put together by tomorrow, and the bulk majority should be done ideally by Monday morning or evening. 
+**These documents were transcribed by TAOBard and the main Bittensor documentation has been integrated, this is aided in collaboration with other people in the Bittensor community. If you think you could further improve this documentation from the perspective of a teacher or student then please, get in contact. I would love the assistance, as we are all learning. This is mainly an AI analysis of the various files found within the Bittensor project itself, as well as how somebody would begin to interact with the Network from step 0(which would be owning a computer). By no means do I claim to be an expert at training ML Models, and I cannot contribute to that conversation yet. That being said, I can give advice for those curious about this obscure technology and teach you if have never touched a Linux terminal before.**
 
-Depends on what ones visions of the docs is, but from an objective overview of commands and functions: If our intent is to educate people how to use Bittensor, the baseline of intelligence required is going to be a lot of computer intelligence most people don't know much about - which I'm happy to make sections on the most commonly used commands when navigating the network. 
+## The Main Purpose of This Documentation:
 
-I personally use WSL, but I don't think most people would even know where to start with this project. First and foremost, it's basic computer science - so perhaps a goal of Bittensor should be to pursue educating people about how to optimize the way they use their computer, but also, just general python knowledge is invaluable for prompting the network so..
+1. The first point we must speak on the fact that, although designed as a blue-print for decentralized AI, the Network still exists in obscurity. 
+    - For one thing, **this whole Network** is way older than people realize. Bittensor has been around the block in the AI world, and these people that are building the Network work around the clock to develop the documentation, the functions and the over-all security of this Network. 
 
-I was even thinking of including examples of Bittensor Python scripts on the prompting network for when things are launched in the future. If you would like to contribute any such scripts, that would be amazing, because I'm not good at programming quite yet. 
+#### So if it's so obscure, why should we adopt it?
+
+1. Bittensor essentially forces you to learn about computer science, which is an increasingly in-demand field that people are paying good money for. From engineering prompts to building our a secure Network database, Bittensor utilizes a foundational skill-set that any computer scientist should be familiar with. 
+2. Along with this, apps are being developed on the Network, and there is now an API. The Prompting Network is accessible through Python scripts! 

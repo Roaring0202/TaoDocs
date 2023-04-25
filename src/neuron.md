@@ -1,4 +1,4 @@
-# Code Summary of _neuron/text/core_validator/__init__.py
+# Code Summary of ```_neuron/text/core_validator/__init__.py```
 
 This Python script defines a class called `neuron` that acts as a core component in a distributed machine learning network. It is responsible for managing the network communication, the model training, and the reward distribution among peers. 
 
