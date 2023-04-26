@@ -1,0 +1,1 @@
+# This is how you would write documentation within mdBook. These are some of the more common symbols used.

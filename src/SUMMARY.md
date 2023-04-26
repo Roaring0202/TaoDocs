@@ -5,7 +5,7 @@
   - [Linux Basics](./Linux_basics.md)
   - [ReadMe](./readme.md)
   - [The Bounty System](./bounty_system.md)
-  - [All the commands, but explained!](./client_commands.md)
+  - [Btcli Basics](./client_commands.md)
 
 - [The Skills You'll Need](./baseline_skills.md)
   - [How to train an LLM?](./rlhf.md)

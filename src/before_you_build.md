@@ -1,4 +1,5 @@
-# Why You Should Use WSL to Interact with the Bittensor Network
+# Advice for Windows Users Before Learning 
+```Learn how to use WSL```
 
 The Bittensor Network is a decentralized machine learning platform that enables developers to train and deploy machine learning models in a secure, distributed environment. As a developer, you may need to interact with this network on a regular basis. One way to make this interaction seamless and efficient is by using the Windows Subsystem for Linux (WSL). This essay will discuss the benefits of using WSL for interacting with the Bittensor Network.
 

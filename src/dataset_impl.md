@@ -1,6 +1,7 @@
 # GenesisTextDataset
 
-## This is a summary of Functions found within - ```bittensor/bittensor/_dataset/dataset_impl.py```
+## This is a summary of Functions found within - 
+```bittensor/bittensor/_dataset/dataset_impl.py```
 ## __To give a high level overview of what this script does:__ 
 
 `GenesisTextDataset` is a class designed to handle text datasets for training language models. It uses IPFS (InterPlanetary File System) as a source for the text data and allows the user to load data from IPFS or a local directory. It provides methods to create a PyTorch DataLoader, reserve text data, and update the data size.

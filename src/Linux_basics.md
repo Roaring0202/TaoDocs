@@ -1,5 +1,5 @@
 # Linux_Basics
-### __I must note the importance of being comfortable navigating Linux and reading code when it comes to developing on the Bittensor Network. Rust is also a good language for documentation, as it is easy to lose track of all the knowledge acquired. At some point, it will become second nature - you will remember what cat does, what a pipe is(example | grep), and you will understand how to use WSL. Speaking of WSL, you should refer to the "Why WSL" section of the Docs.__
+##### __I must note the importance of being comfortable navigating Linux and reading code when it comes to developing on the Bittensor Network. Rust is also a good language for documentation, as it is easy to lose track of all the knowledge acquired. At some point, it will become second nature - you will remember what cat does, what a pipe is(example | grep), and you will understand how to use WSL. Speaking of WSL, you should refer to the "before you build" section of the Docs.__
 
 - `ls`: list files in the current directory
 - `cd`: change directory
