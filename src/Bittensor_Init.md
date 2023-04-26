@@ -1,6 +1,6 @@
 # Synopsis of Bittensor Code
 
-This module includes components for Bittensor, a decentralized AI network. Key components include versioning, rich console setup, functions for controlling the console, constants, and Prometheus setup.
+This module will eventually detail the components of Bittensor, a decentralized AI network. Key components include versioning, rich console setup, functions for controlling the console, constants, and Prometheus setup.
 
 ## Key Components
 

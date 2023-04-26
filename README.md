@@ -1,6 +1,6 @@
-# TaoEdu - the .md files are in src
+# Important to note - the .md files are in src if you just want those
 
-**These documents were transcribed by TAOBard and the main Bittensor documentation has been integrated, this is aided in collaboration with other people in the Bittensor community. If you think you could further improve this documentation from the perspective of a teacher or student then please, get in contact. I would love the assistance, as we are all learning. This is mainly an AI analysis of the various files found within the Bittensor project itself, as well as how somebody would begin to interact with the Network from step 0(which would be owning a computer). By no means do I claim to be an expert at training ML Models, and I cannot contribute to that conversation yet. That being said, I can give advice for those curious about this obscure technology and teach you if have never touched a Linux terminal before.**
+**These documents were transcribed by TAOBard and the main Bittensor documentation has been integrated, this is aided in collaboration with other people in the Bittensor community. If you think you could further improve this documentation from the perspective of a teacher or student then please, get in contact as I would enjoy implementing better documentation if members of the community can write such things. I would love the assistance, as we are all learning. This is mainly an AI analysis of the various files found within the Bittensor project itself, as well as how somebody would begin to interact with the Network from step 0(which would be owning a computer). By no means do I claim to be an expert at training ML Models, and I cannot contribute to that conversation yet. That being said, I can give advice for those curious about this obscure technology and teach you if have never touched a Linux terminal before.**
 
 ## The Main Purpose of This Documentation:
 
@@ -9,5 +9,6 @@
 
 #### So if it's so obscure, why should we adopt it?
 
-1. Bittensor essentially forces you to learn about computer science, which is an increasingly in-demand field that people are paying good money for. From engineering prompts to building our a secure Network database, Bittensor utilizes a foundational skill-set that any computer scientist should be familiar with. 
+1. Bittensor essentially forces you to learn about computer science, which is an increasingly in-demand field that people are paying good money for. From engineering prompts to building out a secure Network database, Bittensor utilizes a foundational skill-set that any computer scientist should be familiar with. 
 2. Along with this, apps are being developed on the Network, and there is now an API. The Prompting Network is accessible through Python scripts! 
+
