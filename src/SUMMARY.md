@@ -2,6 +2,7 @@
 
 - [Getting Started](./introduction.md)
   - [ReadMe](./readme.md)
+  - [How should I read this?](./init.md)
   - [Basic Terminology](./Glossary.md)
   - [The Mountain](./TheDataset.md)
   - [Btcli Basics](./client_commands.md)
