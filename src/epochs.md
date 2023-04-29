@@ -54,3 +54,8 @@ The `run_epoch` function executes a single validator epoch. It applies batches u
 6. Log the end of the epoch using console messages, console tables, prometheus, and wandb.
 
 7. Increment the epoch counter.
+
+
+## Authors Notes
+
+If you think this is wrong, this is an LLMs interpretation and explanation, not mine. I did proof-read and edit everything, but I'm still learning about this network, same as everybody else - this does however, all make sense from my perspective of what I know. That is to say: AI knows more about itself than I know of it. 

@@ -1,6 +1,6 @@
 # Miner Template Analysis 
 
-The provided code is a miner template for benchmarking using the Bittensor framework. It's designed to be a starting point for creating a custom miner, and measures its performance with respect to query execution. The template extends the `QueryBenchmark` class and provides methods for running the miner and configuring it.
+The provided code analysis is of a miner template for benchmarking using the Bittensor framework. It's designed to be a starting point for creating a custom miner, and measures its performance with respect to query execution. The template extends the `QueryBenchmark` class and provides methods for running the miner and configuring it.
 
 ## What it does
 

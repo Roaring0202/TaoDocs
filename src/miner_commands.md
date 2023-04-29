@@ -1,6 +1,6 @@
-# Miner Template Analysis -
+# Miner Template Analysis 
 
-The provided code is a benchmarking superclass for the Bittensor framework. It measures the performance of miners with respect to query execution, allowing for customization and testing of various parameters.
+The provided code analysis is of a benchmarking superclass for the Bittensor framework. It measures the performance of miners with respect to query execution, allowing for customization and testing of various parameters.
 
 ## Key Components
 

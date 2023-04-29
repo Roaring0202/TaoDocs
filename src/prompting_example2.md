@@ -1,14 +1,18 @@
+# More Prompting Examples
+
+**The following is from the example agent.py file.**
+
 ```import bittensor as bt
-from langchain.memory import ConversationBufferMemory
-from langchain.chains import ConversationChain
+import json
 
-llm = bt.BittensorLLM(wallet_name="default")
+axon_client = bt.AxonClient(ip="127.0.0.1", port=9090)
 
-conversation = ConversationChain(
-    llm=llm,
-    verbose=True,
-    memory=ConversationBufferMemory()
-)
+messages = [{"role": "user", "content": "What is the purpose of the Bittensor network?"}]
+encoded_messages = [json.dumps(message) for message in messages]
 
-conversation.predict('what is the capitol of Texas?')```
+response = axon_client.forward(encoded_messages)
+
+print("Response:", response)```
+
+
 
