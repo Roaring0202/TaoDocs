@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Looking at Logs - TaoDocs</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Bittensor Documentation covering the usage, installation, and development of Bittensor/skills adjacent.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.1.</strong> ReadMe</a></li><li class="chapter-item expanded "><a href="init.html"><strong aria-hidden="true">1.2.</strong> How should I read this?</a></li><li class="chapter-item expanded "><a href="Glossary.html"><strong aria-hidden="true">1.3.</strong> Basic Terminology</a></li><li class="chapter-item expanded "><a href="TheDataset.html"><strong aria-hidden="true">1.4.</strong> The Mountain</a></li><li class="chapter-item expanded "><a href="client_commands.html"><strong aria-hidden="true">1.5.</strong> Btcli Basics</a></li><li class="chapter-item expanded "><a href="delegation.html"><strong aria-hidden="true">1.6.</strong> Delegation Explanation</a></li><li class="chapter-item expanded "><a href="taonomics.html"><strong aria-hidden="true">1.7.</strong> TaoNomics</a></li></ol></li><li class="chapter-item expanded "><a href="baseline_skills.html"><strong aria-hidden="true">2.</strong> The Skills You'll Need</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rlhf.html"><strong aria-hidden="true">2.1.</strong> How to train an LLM?</a></li><li class="chapter-item expanded "><a href="md_book.html"><strong aria-hidden="true">2.2.</strong> Learn to write Documentation!</a></li><li class="chapter-item expanded "><a href="before_you_build.html"><strong aria-hidden="true">2.3.</strong> For Windows Users</a></li><li class="chapter-item expanded "><a href="Linux_basics.html"><strong aria-hidden="true">2.4.</strong> Linux Basics</a></li><li class="chapter-item expanded "><a href="md_book.html"><strong aria-hidden="true">2.5.</strong> A Guide to Writing Documentation</a></li></ol></li><li class="chapter-item expanded "><a href="finney.html"><strong aria-hidden="true">3.</strong> Finney and Prompting</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="prompting_examples.html"><strong aria-hidden="true">3.1.</strong> Explanation of Prompt Scripts</a></li><li class="chapter-item expanded "><a href="prompting_example2.html"><strong aria-hidden="true">3.2.</strong> More Prompting Examples</a></li></ol></li><li class="chapter-item expanded "><a href="generate_signature.html"><strong aria-hidden="true">4.</strong> Information for Validation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="verify_signature.html"><strong aria-hidden="true">4.1.</strong> Verify Validator</a></li><li class="chapter-item expanded "><a href="gating_model.html"><strong aria-hidden="true">4.2.</strong> Gating Model</a></li><li class="chapter-item expanded "><a href="neuron.html"><strong aria-hidden="true">4.3.</strong> Neurons</a></li><li class="chapter-item expanded "><a href="core_validator_init.html"><strong aria-hidden="true">4.4.</strong> Core Validator Explanation</a></li><li class="chapter-item expanded "><a href="consensus.html"><strong aria-hidden="true">4.5.</strong> What is Consensus?</a></li></ol></li><li class="chapter-item expanded "><a href="Fine_tuning.html"><strong aria-hidden="true">5.</strong> Fine Tuning Examples/Mining</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mining_models.html"><strong aria-hidden="true">5.1.</strong> Base Mining Models?</a></li><li class="chapter-item expanded "><a href="epochs.html"><strong aria-hidden="true">5.2.</strong> What's an Epoch?</a></li><li class="chapter-item expanded "><a href="miner_commands.html"><strong aria-hidden="true">5.3.</strong> Miner Commands</a></li><li class="chapter-item expanded "><a href="miner_analysis.html"><strong aria-hidden="true">5.4.</strong> Analysis of a Miner Template</a></li><li class="chapter-item expanded "><a href="Why_Cuda.html"><strong aria-hidden="true">5.5.</strong> Cuda PoW</a></li><li class="chapter-item expanded "><a href="keyfile_impl.html"><strong aria-hidden="true">5.6.</strong> Managing Keys</a></li><li class="chapter-item expanded "><a href="bounty_system.html"><strong aria-hidden="true">5.7.</strong> The Bounty System</a></li></ol></li><li class="chapter-item expanded "><a href="dataset_impl.html"><strong aria-hidden="true">6.</strong> GenesisTextDataSet and more on Data</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="dataset_mock.html"><strong aria-hidden="true">6.1.</strong> Mock DataSet</a></li><li class="chapter-item expanded "><a href="_logging_init.html" class="active"><strong aria-hidden="true">6.2.</strong> Looking at Logs</a></li><li class="chapter-item expanded "><a href="return_codes.html"><strong aria-hidden="true">6.3.</strong> Return Codes</a></li><li class="chapter-item expanded "><a href="response_codes.html"><strong aria-hidden="true">6.4.</strong> Response Codes</a></li><li class="chapter-item expanded "><a href="metagraph_impl.html"><strong aria-hidden="true">6.5.</strong> What's a MetaGraph?</a></li></ol></li><li class="chapter-item expanded "><a href="networking.html"><strong aria-hidden="true">7.</strong> Networking</a></li><li class="chapter-item expanded "><a href="registration.html"><strong aria-hidden="true">8.</strong> Registration</a></li><li class="chapter-item expanded "><a href="axon_init.html"><strong aria-hidden="true">9.</strong> Axons</a></li><li class="chapter-item expanded "><a href="dendrite_impl.html"><strong aria-hidden="true">10.</strong> Dendrites</a></li><li class="chapter-item expanded "><a href="prometheus_init.html"><strong aria-hidden="true">11.</strong> The Prometheus Module</a></li><li class="chapter-item expanded "><a href="receptor_impl.html"><strong aria-hidden="true">12.</strong> Receptors</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">TaoDocs</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><code>bittensor/bittensor/_logging/__init__.py</code></p>
+<h1 id="bittensor-logging-overview"><a class="header" href="#bittensor-logging-overview">Bittensor Logging Overview</a></h1>
+<p>The following code block defines a <code>logging</code> class for Bittensor that standardizes the logging process. The class supports setting logging levels, customizing log messages, and sinking logs to files for storage.</p>
+<h1 id="introduction-to-logging-in-bittensor"><a class="header" href="#introduction-to-logging-in-bittensor">Introduction to Logging in Bittensor</a></h1>
+<p>Bittensor is a distributed machine learning framework that leverages blockchain technology. It provides a decentralized platform for training AI models in a collaborative manner. One of the essential aspects of any software system is the logging mechanism, and Bittensor is no exception. Logging helps developers monitor the system's behavior, track errors, and debug issues efficiently.</p>
+<p>In Bittensor, logging is implemented using a customized version of the Loguru library. Loguru is a powerful and flexible logging library for Python that offers simplicity, performance, and reliability. Bittensor's logging mechanism is designed to provide a standardized and structured approach to logging throughout the system, ensuring that log messages are consistent, readable, and maintainable.</p>
+<p>The logging system in Bittensor consists of several class methods responsible for formatting, filtering, and logging messages. These methods are organized into a custom logger class, which is then used throughout the Bittensor library to generate log messages. Key features of the Bittensor logging mechanism include:</p>
+<ol>
+<li>
+<p><strong>Custom Formatters</strong>: Bittensor's logging mechanism provides custom formatters for both terminal display and file output. This allows for a consistent log format that can be customized based on the needs of the developer or the specific situation.</p>
+</li>
+<li>
+<p><strong>Conditional Formatting</strong>: The logging system adjusts the formatting of log messages based on specific keys in the record's 'extra' field, such as 'rpc' and 'receptor'. This allows for more informative log messages and helps developers quickly understand the context of each log entry.</p>
+</li>
+<li>
+<p><strong>Log Levels</strong>: Bittensor's logging mechanism supports various log levels, including success, warning, error, and info. These log levels help developers filter log messages and focus on the most relevant information for their needs.</p>
+</li>
+<li>
+<p><strong>Trace Information</strong>: When enabled, the logging system can include trace information in log messages, such as the function name and line number. This can be useful for debugging purposes and for understanding the flow of execution within the system.</p>
+</li>
+</ol>
+<p>By leveraging the power and flexibility of Loguru, Bittensor's logging mechanism provides a robust and user-friendly way to monitor and debug the distributed machine learning system. With a standardized approach to logging, developers can easily understand the system's behavior and quickly identify and resolve issues.</p>
+<h2 id="logging-class"><a class="header" href="#logging-class">Logging Class</a></h2>
+<p>The <code>logging</code> class provides methods to manage Bittensor's logging system. The key aspects of the class are:</p>
+<ul>
+<li>Instantiating the logging system with various configuration options.</li>
+<li>Adding and removing log sinks.</li>
+<li>Filtering logs based on the chosen logging level (debug, trace, etc.).</li>
+<li>Saving logs to files with log rotation and retention.</li>
+<li>Providing helper methods for configuration and debugging.</li>
+</ul>
+<h3 id="instantiating-logging"><a class="header" href="#instantiating-logging">Instantiating Logging</a></h3>
+<p>The <code>__new__()</code> method initializes the logging system with various options such as:</p>
+<ul>
+<li>Enabling or disabling debugging and trace information.</li>
+<li>Turning on or off logging to a file.</li>
+<li>Specifying the directory where logs are saved.</li>
+</ul>
+<h3 id="adding-and-removing-log-sinks"><a class="header" href="#adding-and-removing-log-sinks">Adding and Removing Log Sinks</a></h3>
+<p>The class manages log sinks, which determine where log messages are sent. The <code>__std_sink__</code> sends log messages to <code>sys.stdout</code>, while <code>__file_sink__</code> sinks logs to a file. The class also provides methods to remove existing sinks.</p>
+<h3 id="log-filtering"><a class="header" href="#log-filtering">Log Filtering</a></h3>
+<p>The <code>log_filter()</code> and <code>log_save_filter()</code> methods are used to filter logs based on the current logging level (debug or trace). This helps control the verbosity of log messages displayed or saved.</p>
+<h3 id="configuration-and-helper-methods"><a class="header" href="#configuration-and-helper-methods">Configuration and Helper Methods</a></h3>
+<p>The class provides several methods to handle configuration and debugging:</p>
+<ul>
+<li><code>config()</code>: Retrieves the config object from the argument parser.</li>
+<li><code>help()</code>: Prints help information to stdout.</li>
+<li><code>add_args()</code>: Adds arguments to the argument parser for logging configuration.</li>
+<li><code>add_defaults()</code>: Sets default values for the logging configuration based on environment variables.</li>
+<li><code>check_config()</code>: Checks the validity of the given config object.</li>
+<li><code>set_debug()</code>: Enables or disables the debug logging level.</li>
+<li><code>set_trace()</code>: Enables or disables the trace logging level.</li>
+</ul>
+<p>With the <code>logging</code> class, developers can easily manage the logging system for Bittensor, ensuring consistent logging output and behavior across different parts of the project.</p>
+<h1 id="bittensor-logging-formatting-and-functions"><a class="header" href="#bittensor-logging-formatting-and-functions">Bittensor Logging Formatting and Functions</a></h1>
+<p>This code block consists of several class methods responsible for the formatting, filtering, and logging of messages in the bittensor library. It provides a standardized approach to logging throughout the system, helping to improve the readability and maintainability of the code.</p>
+<h2 id="log-formatter-methods"><a class="header" href="#log-formatter-methods">Log Formatter Methods</a></h2>
+<ol>
+<li>
+<p><strong>log_formatter</strong>: This method formats the log messages for display in the terminal. It customizes the log format based on the presence of specific keys in the record's 'extra' field, such as 'rpc' and 'receptor'. It also considers the 'trace_on' flag to determine whether to include trace information or not.</p>
+</li>
+<li>
+<p><strong>log_save_formatter</strong>: Similar to the log_formatter method, this method formats log messages for saving to a file. It also adjusts the formatting based on the presence of specific keys in the record's 'extra' field and the 'trace_on' flag.</p>
+</li>
+</ol>
+<h2 id="logging-utility-methods"><a class="header" href="#logging-utility-methods">Logging Utility Methods</a></h2>
+<ol>
+<li>
+<p><strong>rpc_log</strong>: This method logs information about communication between endpoints (axon and dendrite) during the forward or backward pass. It provides essential details such as the call time, public key, unique identifier (uid), inputs, outputs, messages, and synapse.</p>
+</li>
+<li>
+<p><strong>update_receptor_log</strong>: This method logs details about updating connections with a given endpoint. It includes information such as uid, hotkey, coldkey, and IP address.</p>
+</li>
+<li>
+<p><strong>success</strong>, <strong>warning</strong>, <strong>error</strong>, and <strong>info</strong>: These methods are responsible for logging messages with various log levels (success, warning, error, and info). Each method ensures that the logging prefix is left-justified and followed by the log message.</p>
+</li>
+</ol>
+<p>The code block offers a structured and standardized way of logging information in the bittensor library, making it easier for developers to understand the system's behavior and debug issues.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="dataset_mock.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="return_codes.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="dataset_mock.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="return_codes.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
