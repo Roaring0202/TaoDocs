@@ -4,7 +4,7 @@
 
 ### Setup
 
-1. First of all you need to have install cargo in your machine.
+1. First of all you need to have cargo installed in your machine.
 2. You have to install `mdbook` using cargo: `cargo install mdbook`
 
 ### Build the site
