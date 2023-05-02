@@ -5,4 +5,5 @@ language = "en"
 multilingual = false
 src = "src"
 title = "TaoDocs"
-
+[output.html]
+mathjax-support = true
